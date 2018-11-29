@@ -57,6 +57,7 @@ public class Library {
         System.out.println("no dup");
         return(false);
     }
+    //returns avverage of array
     public static double averages(int[] array){
         int total = 0;
         double average = 0;
@@ -68,5 +69,11 @@ public class Library {
         System.out.println("average is " + average);
         return(average);
     }
+
+    //public static int[] lowestAverage (int[][] arrayList){
+
+    //}
+
+
 
 }
