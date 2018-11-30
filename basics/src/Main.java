@@ -1,6 +1,10 @@
+import java.time.LocalDateTime;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("morning dave");
+
+
 
 
 
@@ -10,6 +14,8 @@ public class Main {
         pluralize(number, pet);
 
         FlipNHeads(3);
+
+        clock();
     }
 
     public static void pluralize(int number, String pet) {
@@ -48,6 +54,42 @@ public class Main {
         System.out.println("It took " + flips + " flips to flip " + streak + " heads in a row.");
         flips = 0;
         streak = 0;
+    }
+
+    public static void clock () {
+
+
+        LocalDateTime startTime = LocalDateTime.now();
+        int startHour = startTime.getHour();
+        int startMinute = startTime.getMinute();
+        int startSecond = startTime.getSecond();
+        LocalDateTime now;
+
+
+
+        System.out.println(startHour + ":" + startMinute + ":" + startSecond );
+
+        while (true) {
+
+            now = LocalDateTime.now();
+            int currentHour = now.getHour();
+            int currentMinute = now.getMinute();
+            int currentSecond = now.getSecond();
+
+            if (currentHour != startHour || currentMinute != startMinute || currentSecond != startSecond){
+                System.out.println(currentHour + ":" + currentMinute + ":" + currentSecond);
+            }
+            startHour = currentHour;
+            startMinute = currentMinute;
+            startSecond = currentSecond;
+        }
+
+
+
+
+
+
+
     }
 
 
