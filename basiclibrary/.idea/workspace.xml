@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1282478b-f0e3-43e1-8715-09655d7c7c48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../basics/.idea/basics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../basics/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../basics/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../linter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -28,10 +26,11 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -51,35 +50,49 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1836" />
+          <entry key="JAVA" value="3261" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" selection-start-line="9" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="42">
+              <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#1836#0" expanded="true" />
+                <element signature="method#roll#0;class#Library#0" />
+                <element signature="method#rand#0;class#Library#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="181">
+              <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
               <folding>
+                <element signature="e#0#362#0" expanded="true" />
                 <element signature="imports" expanded="true" />
+                <element signature="method#rollTest#0;class#LibraryTest#0" />
+                <element signature="method#containsDuplicatesTrueTest#0;class#LibraryTest#0" />
+                <element signature="method#containsDuplicatesFalseTest#0;class#LibraryTest#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sys</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -373,8 +386,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Library.java" />
         <option value="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Library.java" />
       </list>
     </option>
   </component>
@@ -390,8 +403,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -399,15 +410,48 @@
               <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
               <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543602350236" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../basics" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543722387552" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -421,18 +465,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest">
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Library" />
-      <module name="basiclibrary_main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LibraryTest.arrayOfArraysTest">
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basiclibrary_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LibraryTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.arrayOfArraysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basiclibrary_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
+      <option name="METHOD_NAME" value="arrayOfArraysTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.averages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basiclibrary_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
+      <option name="METHOD_NAME" value="averages" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.roll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basiclibrary_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
+      <option name="METHOD_NAME" value="roll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -448,15 +515,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Library" />
       <item itemvalue="JUnit.LibraryTest.testSomeLibraryMethod" />
       <item itemvalue="JUnit.LibraryTest" />
+      <item itemvalue="JUnit.LibraryTest.roll" />
+      <item itemvalue="JUnit.LibraryTest.averages" />
+      <item itemvalue="JUnit.LibraryTest.arrayOfArraysTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LibraryTest" />
+        <item itemvalue="JUnit.LibraryTest.arrayOfArraysTest" />
+        <item itemvalue="JUnit.LibraryTest.averages" />
         <item itemvalue="JUnit.LibraryTest.testSomeLibraryMethod" />
-        <item itemvalue="Application.Library" />
+        <item itemvalue="JUnit.LibraryTest.roll" />
+        <item itemvalue="JUnit.LibraryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -474,17 +545,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTest_testSomeLibraryMethod - 2018.11.29 at 08h 53m 29s.xml">
-      <configuration name="LibraryTest.testSomeLibraryMethod" configurationId="JUnit" />
+    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 22m 08s.xml">
+      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest - 2018.11.29 at 09h 34m 15s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
+    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 25m 02s.xml">
+      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 25m 19s.xml">
+      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 25m 52s.xml">
+      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 26m 40s.xml">
+      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 27m 07s.xml">
+      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 29m 39s.xml">
+      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 29m 52s.xml">
+      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 30m 27s.xml">
+      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 45m 52s.xml">
+      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -520,17 +616,26 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" selection-start-line="9" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="42">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#1836#0" expanded="true" />
+            <element signature="method#roll#0;class#Library#0" />
+            <element signature="method#rand#0;class#Library#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="181">
+          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
           <folding>
+            <element signature="e#0#362#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="method#rollTest#0;class#LibraryTest#0" />
+            <element signature="method#containsDuplicatesTrueTest#0;class#LibraryTest#0" />
+            <element signature="method#containsDuplicatesFalseTest#0;class#LibraryTest#0" />
           </folding>
         </state>
       </provider>
