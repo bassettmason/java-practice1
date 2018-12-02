@@ -7,35 +7,24 @@ public class Library {
         return true;
     }
 
-    public static void main(String[] args) {
-        int rolls = 3;
-
-        //roll(rolls);
-        //duplicates(roll(rolls));
-        averages(roll(rolls));
-
-
-
-
-    }
     //rolls a dice n amount of times and returns an array of each roll
     public static int[] roll(int n) {
-        int[] rollArray = new int [n];
+        int[] rollArray = new int[n];
         for (int i = 0; i<n; i++){
 
             rollArray[i] = rand();
-            System.out.println("rollArray[i]" + rollArray[i]);
+
         }
         return(rollArray);
 
     }
     //returns a random int 1-6
-    public static int rand() {
+    private static int rand() {
         while (true) {
             int dice = new Random().nextInt(6);
 
             if (dice != 0) {
-                System.out.println("dice" + dice);
+
                 return(dice);
 
 
@@ -45,9 +34,9 @@ public class Library {
 
     }
 //   two for loops check eachother for duplicates returning boolean
-    public static boolean duplicates(int[] array) {
+    public static boolean containsDuplicates(int[] array) {
         for (int i = 0; i<array.length; i++){
-            for (int j = 0; i<array.length; j++){
+            for (int j = i+1; i<array.length; j++){
                 if (array[i] == array[j]) {
                     System.out.println("duplicates yay");
                     return (true);
@@ -57,9 +46,9 @@ public class Library {
         System.out.println("no dup");
         return(false);
     }
-    //returns avverage of array
-    public static double averages(int[] array){
-        int total = 0;
+    //returns average of array
+    public static double calculateAverages(int[] array){
+        double total = 0;
         double average = 0;
         for (int i = 0; i<array.length; i++){
 
@@ -70,9 +59,28 @@ public class Library {
         return(average);
     }
 
-    //public static int[] lowestAverage (int[][] arrayList){
+    public static int[] arrayOfArrays(int[][] weatherSet) {
+        int[]lowest = weatherSet[0];
+        double lowestAverage = 200;
+        for (int i = 0; i < weatherSet.length; i++) {
 
-    //}
+            double currentAverage = calculateAverages(weatherSet[i]);
+
+
+
+            if (currentAverage < lowestAverage) {
+                lowestAverage = currentAverage;
+                lowest = weatherSet[i];
+
+            }
+
+
+        }
+        return(lowest);
+
+    }
+
+
 
 
 

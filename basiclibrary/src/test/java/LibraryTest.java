@@ -3,6 +3,8 @@
  */
 import org.junit.Test;
 import static org.junit.Assert.*;
+import java.util.*;
+import java.lang.Iterable;
 
 public class LibraryTest {
     @Test public void testSomeLibraryMethod() {
@@ -11,4 +13,55 @@ public class LibraryTest {
     }
 
 
+
+    @Test
+    public void rollTest() {
+        int[] actual = Library.roll(4);
+        int expects = 4;
+        int size = actual.length;
+
+
+
+        assertEquals(size, expects);
+    }
+
+    @Test
+    public void containsDuplicatesTrueTest() {
+
+        int[] rolls = {1,2,3};
+        boolean result = Library.containsDuplicates(rolls);
+
+        assertEquals(true, result);
+    }
+
+    @Test
+    public void containsDuplicatesFalseTest() {
+
+        int[] rolls = {1,2,2};
+        boolean result = Library.containsDuplicates(rolls);
+
+        assertEquals(false, result);
+
+    }
+
+    @Test
+    public void calculateAveragesTest() {
+        int[] rolls = {4,5,6};
+        double result = Library.calculateAverages(rolls);
+        assertEquals(5, result, 1);
+    }
+
+    @Test
+    public void arrayOfArraysTest() {
+        // Daily average temperatures for Seattle, October 1-28 2017
+        int[][] weeklyMonthTemperatures = {
+                {66, 64, 58, 65, 71, 57, 60},
+                {57, 65, 65, 70, 72, 65, 51},
+                {55, 54, 60, 53, 59, 57, 61},
+                {65, 56, 55, 52, 55, 62, 57}
+        };
+        int[] lowestArray = Library.arrayOfArrays(weeklyMonthTemperatures);
+
+        assertArrayEquals(weeklyMonthTemperatures[2],lowestArray );
+    }
 }
