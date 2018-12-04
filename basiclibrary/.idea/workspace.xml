@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1282478b-f0e3-43e1-8715-09655d7c7c48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linter/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -25,12 +23,13 @@
     <session id="-602210928">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,7 +49,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3261" />
+          <entry key="JAVA" value="5449" />
         </counts>
       </usages-collector>
     </session>
@@ -60,12 +59,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+            <state relative-caret-position="-1700">
+              <caret line="19" selection-start-line="18" selection-end-line="19" />
               <folding>
-                <element signature="e#0#1836#0" expanded="true" />
-                <element signature="method#roll#0;class#Library#0" />
-                <element signature="method#rand#0;class#Library#0" />
+                <element signature="e#0#3279#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,14 +71,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+            <state relative-caret-position="274">
+              <caret line="85" column="27" lean-forward="true" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
               <folding>
-                <element signature="e#0#362#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="method#rollTest#0;class#LibraryTest#0" />
-                <element signature="method#containsDuplicatesTrueTest#0;class#LibraryTest#0" />
-                <element signature="method#containsDuplicatesFalseTest#0;class#LibraryTest#0" />
               </folding>
             </state>
           </provider>
@@ -386,8 +379,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Library.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
       </list>
     </option>
   </component>
@@ -410,37 +403,6 @@
               <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
               <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -450,8 +412,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543722387552" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543794125292" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../linter" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -465,7 +435,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest.arrayOfArraysTest">
+  <component name="RunManager" selected="JUnit.LibraryTest.tallyTest">
+    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Library" />
+      <module name="basiclibrary_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basiclibrary_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -484,50 +461,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.averages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryTest.containsDuplicatesTrueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basiclibrary_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="averages" />
+      <option name="METHOD_NAME" value="containsDuplicatesTrueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.roll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryTest.tallyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basiclibrary_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="roll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LibraryTest.testSomeLibraryMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basiclibrary_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="testSomeLibraryMethod" />
+      <option name="METHOD_NAME" value="tallyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LibraryTest.testSomeLibraryMethod" />
-      <item itemvalue="JUnit.LibraryTest" />
-      <item itemvalue="JUnit.LibraryTest.roll" />
-      <item itemvalue="JUnit.LibraryTest.averages" />
+      <item itemvalue="JUnit.LibraryTest.containsDuplicatesTrueTest" />
       <item itemvalue="JUnit.LibraryTest.arrayOfArraysTest" />
+      <item itemvalue="JUnit.LibraryTest" />
+      <item itemvalue="Application.Library" />
+      <item itemvalue="JUnit.LibraryTest.tallyTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LibraryTest.arrayOfArraysTest" />
-        <item itemvalue="JUnit.LibraryTest.averages" />
-        <item itemvalue="JUnit.LibraryTest.testSomeLibraryMethod" />
-        <item itemvalue="JUnit.LibraryTest.roll" />
+        <item itemvalue="JUnit.LibraryTest.tallyTest" />
         <item itemvalue="JUnit.LibraryTest" />
+        <item itemvalue="JUnit.LibraryTest.arrayOfArraysTest" />
+        <item itemvalue="Application.Library" />
+        <item itemvalue="JUnit.LibraryTest.containsDuplicatesTrueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -545,42 +512,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 22m 08s.xml">
+    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 22h 39m 23s.xml">
       <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 25m 02s.xml">
+    <history-entry file="LibraryTest_containsDuplicatesTrueTest - 2018.12.01 at 22h 39m 55s.xml">
+      <configuration name="LibraryTest.containsDuplicatesTrueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_containsDuplicatesFalseTest - 2018.12.02 at 12h 37m 31s.xml">
+      <configuration name="LibraryTest.containsDuplicatesFalseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_containsDuplicatesTrueTest - 2018.12.02 at 12h 38m 01s.xml">
+      <configuration name="LibraryTest.containsDuplicatesTrueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_containsDuplicatesTrueTest - 2018.12.02 at 12h 38m 09s.xml">
+      <configuration name="LibraryTest.containsDuplicatesTrueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_containsDuplicatesTrueTest - 2018.12.02 at 12h 38m 26s.xml">
+      <configuration name="LibraryTest.containsDuplicatesTrueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_containsDuplicatesTrueTest - 2018.12.02 at 12h 38m 38s.xml">
+      <configuration name="LibraryTest.containsDuplicatesTrueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest - 2018.12.02 at 12h 40m 07s.xml">
+      <configuration name="LibraryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.02 at 13h 43m 21s.xml">
       <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 25m 19s.xml">
-      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 25m 52s.xml">
-      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 26m 40s.xml">
-      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 27m 07s.xml">
-      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 29m 39s.xml">
-      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 29m 52s.xml">
-      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 30m 27s.xml">
-      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_arrayOfArraysTest - 2018.12.01 at 19h 45m 52s.xml">
-      <configuration name="LibraryTest.arrayOfArraysTest" configurationId="JUnit" />
+    <history-entry file="LibraryTest_tallyTest - 2018.12.02 at 15h 20m 04s.xml">
+      <configuration name="LibraryTest.tallyTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -589,7 +556,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -616,26 +583,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        <state relative-caret-position="-1700">
+          <caret line="19" selection-start-line="18" selection-end-line="19" />
           <folding>
-            <element signature="e#0#1836#0" expanded="true" />
-            <element signature="method#roll#0;class#Library#0" />
-            <element signature="method#rand#0;class#Library#0" />
+            <element signature="e#0#3279#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+        <state relative-caret-position="274">
+          <caret line="85" column="27" lean-forward="true" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
           <folding>
-            <element signature="e#0#362#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="method#rollTest#0;class#LibraryTest#0" />
-            <element signature="method#containsDuplicatesTrueTest#0;class#LibraryTest#0" />
-            <element signature="method#containsDuplicatesFalseTest#0;class#LibraryTest#0" />
           </folding>
         </state>
       </provider>

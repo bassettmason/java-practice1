@@ -5,8 +5,23 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class AppTest {
-    @Test public void testAppHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull("app should have a greeting", classUnderTest.getGreeting());
+
+
+    @Test public void testCheckFile() {
+
+        String gatesone = App.checkFile("gatesone.js");
+        String gates = App.checkFile("gates.js");
+        String gatesfew = App.checkFile("gatesfew.js");
+        String gateszero = App.checkFile("gateszero.js");
+        String gatesempty = App.checkFile("gatesempty.js");
+
+//        assertEquals("Line 5: Missing semicolon", gatesone);
+
+        assertTrue(gatesone.contains("Missing"));
     }
+
+
+
+
 }
+

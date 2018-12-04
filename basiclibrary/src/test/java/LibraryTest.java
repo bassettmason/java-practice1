@@ -7,12 +7,21 @@ import java.util.*;
 import java.lang.Iterable;
 
 public class LibraryTest {
-    @Test public void testSomeLibraryMethod() {
-        Library classUnderTest = new Library();
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
+
+    @Test
+
+    public void analyzingWeatherDataTest() {
+        int[][] weeklyMonthTemperatures = {
+                {66, 64, 58, 65, 71, 57, 60},
+                {57, 65, 65, 70, 72, 65, 51},
+                {55, 54, 60, 53, 59, 57, 61},
+                {65, 56, 55, 52, 55, 62, 57}
+        };
+
+
+        String testString = "High: 72" + "\n" + "Low: 51" + "\n" + "Never saw temp 63" + "\n" + "Never saw temp 67" + "\n" + "Never saw temp 68" + "\n" + "Never saw temp 69";
+        assertEquals(Library.analyzingWeatherData(weeklyMonthTemperatures),testString);
     }
-
-
 
     @Test
     public void rollTest() {
@@ -28,7 +37,7 @@ public class LibraryTest {
     @Test
     public void containsDuplicatesTrueTest() {
 
-        int[] rolls = {1,2,3};
+        int[] rolls = {1,2,2};
         boolean result = Library.containsDuplicates(rolls);
 
         assertEquals(true, result);
@@ -37,7 +46,7 @@ public class LibraryTest {
     @Test
     public void containsDuplicatesFalseTest() {
 
-        int[] rolls = {1,2,2};
+        int[] rolls = {1,2,3};
         boolean result = Library.containsDuplicates(rolls);
 
         assertEquals(false, result);
@@ -63,5 +72,24 @@ public class LibraryTest {
         int[] lowestArray = Library.arrayOfArrays(weeklyMonthTemperatures);
 
         assertArrayEquals(weeklyMonthTemperatures[2],lowestArray );
+    }
+
+    @Test
+    public void tallyTest() {
+
+        List<String> votes = new ArrayList<>();
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Shrub");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Bush");
+
+        String winner = Library.tally((ArrayList<String>) votes);
+        assertTrue(winner instanceof String);
+        assertTrue(winner.contains("Bush"));
     }
 }
