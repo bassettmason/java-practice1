@@ -5,7 +5,7 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class Restaurant {
+public class Restaurant implements HasReviews {
 //Global variable
     public String name;
     public double stars;
@@ -22,7 +22,7 @@ public class Restaurant {
     public void addReview(Review review) {
 
         this.reviewList.add(review);
-        review.restaurant = this;
+        review.reviewedName = this;
         stars = avgStars();
     }
     //avgStars adds up all the review star votes and returns average

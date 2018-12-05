@@ -1,13 +1,13 @@
 public class Review {
 //global variables
-    public Restaurant restaurant;
+    public Object reviewedName;
     public String author;
     public int stars;
     public String body;
 
 //Review Constructor
     public Review(String author, int stars, String body) {
-        this.restaurant = null;
+        this.reviewedName = null;
         this.author = author;
         this.stars = stars;
         this.body = body;
