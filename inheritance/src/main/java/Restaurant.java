@@ -22,7 +22,7 @@ public class Restaurant {
     public void addReview(Review review) {
 
         this.reviewList.add(review);
-        review.restaurant = this;
+        review.reviewedName = this;
         stars = avgStars();
     }
     //avgStars adds up all the review star votes and returns average
