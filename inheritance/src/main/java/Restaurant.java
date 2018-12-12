@@ -5,7 +5,7 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class Restaurant implements HasReviews {
+public class Restaurant {
 //Global variable
     public String name;
     public double stars;
